@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Bike Messenger</string>
+    <string name="title_activity_news">News</string>
+    <string name="large_text">
+        "Kami mencari kurir yang menggunakan sepeda (bukan sepeda motor) untuk mengantar paket "
+        "dan dokumen di area Kota Bandung. Calon yang diutamakan adalah pesepeda, yaitu yang "
+        "menggunakan sepeda sebagai transportasi sehari-hari.\n\n"
+
+        "Harap dibaca baik-baik persyaratan yang tertulis dibawah ini, dan juga keahlian yang "
+        "dibutuhkan.\n\n"
+        "Silahkan kirim lamaran, CV/Daftar Riwayat Hidup dan kelengkapan ke axr.bdg@gmail.com.\n\n"
+        "Setelah itu tim kami akan menyeleksi Anda. Apabila Anda lulus seleksi, maka kami akan "
+        "menghubungi Anda untuk datang untuk dilakukan interview. Dokumen pendukung wajib dibawa "
+        saat interview.\n\n"
+        "Persyaratan :\n\n"
+        "- Tidak sedang Sekolah / Kuliah / Bekerja di Perusahaan Lain.\n\n"
+        "- Umur diatas 18 tahun.\n\n"
+        "- Memiliki Sepeda (fixed, road, MTB).\n\n"
+        "- Memiliki smartphone berkoneksi internet.\n\n"
+        "- Memiliki helm sepeda.\n\n"
+        "- Memiliki kunci/gembok sepeda.\n\n"
+        "- Memiliki tas ransel besar.\n\n"
+        "Keahlian yang dibutuhkan :.\n\n"
+        "- Dapat membaca peta.\n\n"
+        "- Dapat bekerja dalam tim.\n\n"
+        "Dokumen Pendukung :.\n\n"
+        "- KTP/SIM/Paspor.\n\n"
+        "- Surat Keterangan Catatan Kepolisian (SKCK).\n\n"
+        "- Kartu Keluarga (KK).\n\n"
+        "Note : Lebih lengkap lebih baik !.\n\n"
+        "Silahkan kirim lamaran, CV/Daftar Riwayat Hidup dan kelengkapan ke axr.bdg@gmail.com.\n\n"
+    </string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+    <string name="large_textabout">
+        "AXLERIDE MESSENGER.\n\n"
+
+        "Your Personal Carrier.\n\n"
+
+        "Bicycle courier based from Bandung, Indonesia.\n\n"
+        "Formed from bicycle community which become a service providers to delivery package goods "
+        "or documents in Bandung Metropolitan Area started from June 2015. "
+        "With tag line "Your Personal Carrier" we born to be personal intermediaries between "
+        "sender and receiver, ensure the goods are secure during delivery with delivery time "
+        "maxsimum 3 hours from pickup. Additionally Axle Ride Messenger help you to delivery a "
+        "documents or packages in urgent time and can lead even to a public place or specific "
+        "location with specific instructions.Material is the metaphor.\n\n"
+
+
+    </string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_google_map_apidemo">Map</string>
+
+</resources>

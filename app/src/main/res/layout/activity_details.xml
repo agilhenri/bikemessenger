@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fab2_color"
+    tools:context="com.example.agil.bikemessengerbandung.DetailsActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ScrollView
+            android:layout_width="391dp"
+            android:layout_height="25dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Item Description"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edit_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.01"
+                    android:inputType="textPersonName"
+                    android:background="@android:color/white"
+                    android:drawableLeft="@drawable/ic_barang"
+                    android:drawableTint="@android:color/black"
+                    android:ems="25"
+                    android:hint="   Description of item"
+                    android:padding="5dp"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Sender"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edit_sendername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                    android:drawableTint="@android:color/black"
+                    android:ems="20"
+                    android:hint="   Sender Name"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/edit_senderphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/white"
+                    android:drawableLeft="@drawable/ic_call_black_24dp"
+                    android:drawableTint="@android:color/black"
+                    android:ems="20"
+                    android:hint="   Sender Phone"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/edit_senderadd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/white"
+                    android:drawableLeft="@drawable/ic_home_black_24dp"
+                    android:drawableTint="@android:color/black"
+                    android:ems="20"
+                    android:hint="   Detail Address"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Receiver"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edit_receivername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                    android:drawableTint="@android:color/black"
+                    android:ems="20"
+                    android:hint="   Receiver Name"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/edit_reveicerphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/white"
+                    android:drawableLeft="@drawable/ic_call_black_24dp"
+                    android:drawableTint="@android:color/black"
+                    android:ems="20"
+                    android:hint="   Receiver Phone"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/edit_receiveradd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/white"
+                    android:drawableLeft="@drawable/ic_home_black_24dp"
+                    android:drawableTint="@android:color/black"
+                    android:ems="20"
+                    android:hint="   Detail Address"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Payment Method"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Cash"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="15dp"
+                    android:text="TOTAL"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_orderdetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="#ffe500"
+                    android:text="Order"
+                    android:textAllCaps="false"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
